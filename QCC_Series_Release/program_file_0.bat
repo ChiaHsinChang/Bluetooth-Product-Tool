@@ -1,1 +1,0 @@
-NvsCmd.exe burn D:\Projects\MassDrop\DROP_Panda_v1.0.0.99.xuv -usbdbg 1 -deviceid 4 0 
