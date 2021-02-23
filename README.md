@@ -1,2 +1,2 @@
-# Bluetooth-Product-Tool
+# Bluetooth-Production-Tool
 Functions: read/write basic parameter, erase, program and verify flash, audio test includes THD and Amplitude, RF test includes Trim and Power evaluation, and so on...
