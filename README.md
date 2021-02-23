@@ -1,2 +1,28 @@
 # Bluetooth-Production-Tool
-Functions: read/write basic parameter, erase, program and verify flash, audio test includes THD and Amplitude, RF test includes Trim and Power evaluation, and so on...
+This is a bluetooth production tool, especially for Qualcomm Bluetooth QCC series chips, 
+contains the following functions:
+  1. read/write basic flash parameters
+  2. erase/program/verify the flash
+  3. audio test THD/amplitude with CS42L51 and EFM32 through USB to I2C control
+  4. RF test trim/power with MT8852 through the provided API function
+  5. battery charger current monitor with INA219
+  6. erase/program/verify the flash with multiple connection
+  7. GPIO test
+  8. audio codec License check
+
+
+![alt tag](https://i.imgur.com/RAkj3p9.jpg)
+
+![alt tag](https://i.imgur.com/U2FJuQE.jpg)
+
+![alt tag](https://i.imgur.com/RjSvQbs.jpg)
+
+![alt tag](https://i.imgur.com/sD44otM.jpg)
+
+![alt tag](https://i.imgur.com/4uh8iSx.jpg)
+
+![alt tag](https://i.imgur.com/KHILPjZ.jpg)
+
+![alt tag](https://i.imgur.com/dbEzk90.jpg)
+
+![alt tag](https://i.imgur.com/2ghnaqa.jpg)
