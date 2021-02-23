@@ -1,0 +1,132 @@
+----------------------------------------OrpheuSys BT Tool Config----------------------------------------
+EEPROM_ImageFile_Path	D:\Ric\Firmware\Mitrastar\IGW-6000BM-CSR8635-256U_20180815\IGW-6000BM-CSR8635-256U_20180815.dump
+Flash_ImageFile_Path	D:\Projects\MassDrop\DROP_Panda_v1.0.0.99.xuv
+MAC_Address	CC398C01B9D8
+Execute_Mode	0
+Storage_Type	1
+CS42L51_Gain	-6
+LoopBack_Route	0
+Amplitude_Spec	-25
+THD+N_Spec	-40
+Cable_Loss_2441M	2
+Power_Spec_2441M	1
+Number_Of_DUT	2
+BT_Device_Name	DROP Panda
+USB_Detect_Time	20
+Part_Number	99MO035242
+FW_Version	10099
+Enable_Write_FW	1
+Enable_Write_MAC	0
+Enable_Check_BT_Name	1
+Enable_Check_Part_No	0
+Enable_Check_FW_Ver	1
+Enable_Charger	0
+Enable_Audio_Ampl	0
+Enable_Audio_THD	0
+Enable_GPIO	0
+Enable_MIC_Bias	0
+Enable_RF_Trim	0
+Enable_RF_Power	0
+Enable_DUT_Mode	0
+Write_FW_Config	1
+Charger_Current	65
+MIC_Bias_GPIO	5
+GPIO_Input_1	0
+GPIO_Input_2	1
+GPIO_Input_3	6
+GPIO_Input_4	7
+GPIO_Input_5	8
+GPIO_Input_6	9
+GPIO_Input_7	13
+GPIO_Input_8	14
+GPIO_Input_9	15
+GPIO_Input_10	16
+GPIO_Input_11	17
+GPIO_Input_12	18
+GPIO_Input_13	19
+GPIO_Input_14	20
+GPIO_Input_15	21
+GPIO_Input_16	0
+DUT_GPIO_Number	15
+Serial_Flash_Type	2
+Enable_Check_License	0
+License_MAC_Start	CC398C01A96A
+License_MAC_Stop	CC398C01BD55
+Enable_Check_Codec_Licenses	1
+Codec_License_cVc	1
+Codec_License_aptX	1
+Codec_License_Voice	0
+Codec_License_ANC	0
+Trim_Accurate	3
+XtalLoadCapacitance	13
+XtalFreqTrim	0
+ChipIdentify	5124
+ButtonA	PIO54
+ButtonB	PIO60
+ButtonC	PIO61
+ButtonD	PIO19
+ButtonE	PIO20
+IOA	PIO21
+IOB	PIO52
+IOC	PIO53
+----------------------------------------For Debug Use----------------------------------------
+RF_Trim_Value	
+RF_Trim_Offset	
+RF_Trim_Step	
+RF_Power_With_CableLoss	
+----------------------------------------Explanation----------------------------------------
+EEPROM_File_Path:	The Image File Location to Write to EEPROM
+Flash_File_Path:	The Image File Location to Write to Flash
+MAC_Address:	The MAC Address to Write to Module when Execute Mode=0
+Execute_Mode:	0=Read Config(Auto) Run, 1=BarCode Scan Run
+Storage_Type:	0=EEPROM, 1=Flash
+CS42L51_Gain:	Range:-102~+12dB, Typecal:for 8635/8645(-9 ~ -12); for 8670(-30 ~ -33)
+LoopBack_Route:	0=MIC_L to SPK_L, MIC_R to SPK_R, 1=MIC_R to SPK_L, MIC_R to SPK_R, 2=MIC_L to SPK_L, MIC_L to SPK_R, 3=MIC_R to SPK_L, MIC_L to SPK_R
+Amplitude_Spec:	dB, 0dB = 1.95Vpp
+THD+N_Spec:	dB, -60dB = 0.1%
+Cable_Loss_2441M:	Cable Loss at 2441MHz
+Power_Spec_2441M:	RF Power at 2441MHz spec
+Number_Of_DUT:	Define DUT Number for Gang Programmer
+BT_Device_Name:	Define BT Name to Compare
+USB_Detect_Time:	Define USB Detect Time
+Part_Number:	Define Part Number to Compare
+FW_Version:	Define FW Version to Compare
+Enable_Write_FW:	Enable Program FW
+Enable_Write_MAC:	Enable Write MAC Address
+Enable_Check_BT_Name:	Enable Check BT Name
+Enable_Check_Part_No:	Enable Check Part Number
+Enable_Check_FW_Ver:	Enable Check FW Version
+Enable_Charger:	Enable Charger Test
+Enable_Audio_Ampl:	Enable Audio Amplitude Test
+Enable_Audio_THD:	Enable Audio THD Test
+Enable_GPIO:	Enable GPIO Test
+Enable_MIC_Bias:	Enable MIC Bias
+Enable_RF_Trim:	Enable RF Trim Test
+Enable_RF_Power:	Enable RF Power Test
+Enable_DUT_Mode:	Enable Enter DUT Mode for MT8852 Connection
+Write_FW_Config:	0=Write Filled MAC Address, 1=Keep Internal MAC Address & Xtal Offset, 2=Use Factory MAC Address
+Charger_Current:	Charger Current(mA)
+MIC_Bias_GPIO:	GPIO for MIC Bias Detect
+GPIO_Input_1:	Define GPIO Input 1 For Test
+GPIO_Input_2:	Define GPIO Input 2 For Test
+GPIO_Input_3:	Define GPIO Input 3 For Test
+GPIO_Input_4:	Define GPIO Input 4 For Test
+GPIO_Input_5:	Define GPIO Input 5 For Test
+GPIO_Input_6:	Define GPIO Input 6 For Test
+GPIO_Input_7:	Define GPIO Input 7 For Test
+GPIO_Input_8:	Define GPIO Input 8 For Test
+GPIO_Input_9:	Define GPIO Input 9 For Test
+GPIO_Input_10:	Define GPIO Input 10 For Test
+GPIO_Input_11:	Define GPIO Input 11 For Test
+GPIO_Input_12:	Define GPIO Input 12 For Test
+GPIO_Input_13:	Define GPIO Input 13 For Test
+GPIO_Input_14:	Define GPIO Input 14 For Test
+GPIO_Input_15:	Define GPIO Input 15 For Test
+GPIO_Input_16:	Define GPIO Input 16 For Test
+DUT_GPIO_Number:	Define DUT GPIO Number For Test
+Serial_Flash_Type:	0=STANDARD TYPE(CSR8670), 1=SPI TYPE(CSR64215), 2=SQI TYPE
+Enable_Check_License	Enable Check MAC Address in License Range
+License_MAC_Start	License MAC Address Start For Check
+License_MAC_Stop	License MAC Address Stop For Check
+Trim_Accurate	Target Auto Trim Accurate, 1 Step=2.3kHz Tolerance, 20kHz Tolerance=8 Step
+

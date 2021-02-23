@@ -1,0 +1,7 @@
+version=QCC512X_CONFIG
+
+##############################
+file=system1
+
+# The capacitance for driving a crystal providing the raw clock
+XtalLoadCapacitance = 0x0e
