@@ -15,14 +15,8 @@ contains the following functions:
 
 ![alt tag](https://i.imgur.com/U2FJuQE.jpg)
 
-![alt tag](https://i.imgur.com/RjSvQbs.jpg)
-
-![alt tag](https://i.imgur.com/sD44otM.jpg)
-
 ![alt tag](https://i.imgur.com/4uh8iSx.jpg)
 
 ![alt tag](https://i.imgur.com/KHILPjZ.jpg)
 
 ![alt tag](https://i.imgur.com/dbEzk90.jpg)
-
-![alt tag](https://i.imgur.com/2ghnaqa.jpg)
